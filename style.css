@@ -5,9 +5,19 @@
 }
 
 .card {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 300px;
   padding: 20px;
+  margin: auto;
+  box-shadow: 2px 2px 5px;
+  transition:
+    box-shadow 0.4s,
+    transform 0.4s;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px;
+  transform: scale(1.1);
 }
 
 .product-name {
@@ -38,4 +48,14 @@
   border-radius: 20px;
   padding: 10px 20px;
   margin-top: 10px;
+  width: 300px;
+  transition:
+    opacity 0.4s,
+    transform 0.4s;
+}
+
+.add-to-cart-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.05);
 }
