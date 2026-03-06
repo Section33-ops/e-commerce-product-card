@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+
+.card {
+  border: 2px solid black;
+  width: 300px;
+  padding: 20px;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-desc {
+  font-size: 14px;
+}
+
+.product-rating {
+  font-size: 24px;
+  color: yellow;
+}
+
+.add-to-cart-button {
+  border: none;
+  background-color: rgb(21, 142, 0);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
